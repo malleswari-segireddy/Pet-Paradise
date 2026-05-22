@@ -1,0 +1,109 @@
+#nav {
+    background-image: linear-gradient(to right, Aqua, gold);
+}
+
+#icon {
+    padding-left: 20px;
+}
+
+#over {
+    background-color: Orange;
+}
+
+#dog {
+    background-image: linear-gradient(to left, Aqua, Gold);
+}
+
+#icons {
+    padding-left: 300px;
+}
+
+#img {
+    padding-left: 95px;
+
+}
+
+#nav {
+
+    background-color: #F0E68C;
+    ;
+}
+
+#one {
+
+    padding-left: 300px;
+    padding-top: 25px;
+}
+
+#two {
+
+    padding-top: 25px;
+}
+
+#availability {
+
+    padding-top: 100px;
+}
+
+#three {
+
+    height: 500px;
+
+}
+
+.petsAvailable {
+    transition: transform 0.3s ease;
+}
+
+.petsAvailable:hover {
+    transform: translateY(-5px) scale(1.03);
+}
+
+#quote {
+    padding-top: 150px;
+    padding-left: 180px;
+}
+
+#feed {
+
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#feedback {
+    padding-top: 30px;
+}
+
+#acco {
+
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+#avail {
+
+    padding-top: 150px;
+
+}
+
+.card-body {
+    box-shadow: #ebd620 0px 5px 15px;
+}
+
+a {
+    text-decoration: none; /* removes underline */
+    color: black;          /* changes blue to black */
+}
+
+.card-body {
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+/* On hover show full text */
+.card:hover .card-body {
+    max-height: 500px;
+    overflow: visible;
+    -webkit-line-clamp: unset;
+}
